@@ -174,7 +174,6 @@ sizes.height = window.innerHeight
 
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 자바스크립트
-/assets/lessons/08/step-05.png
 
 픽셀 비율이 변경될 때 알림을 받는 기술이 있지만 픽셀 비율이 다른 여러 화면을 사용하는 사용자에게만 해당되며 일반적으로 화면에서 다른 화면으로 변경할 때 창 크기를 조정합니다. 이것이 바로 이 메소드를 resize콜백에도 추가하는 이유입니다 .
 
